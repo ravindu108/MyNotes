@@ -1,4 +1,4 @@
-###This is my 1st fundamental level Golang project. 
+This is my 1st fundamental level Golang project. 
 
 ```go
 package main

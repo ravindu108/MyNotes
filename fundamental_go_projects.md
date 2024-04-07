@@ -8,16 +8,15 @@ import (
 
 func main() {
 
-    fmt.Println("Welcome to my Simple Calculator") // Moved inside the main function.
+    fmt.Println("Welcome to my Simple Calculator") 
 
     var num1, num2, result float64
     var operations string
 
     fmt.Print("Enter the 1st number: ")
-    fmt.Scanln(&num1) // Consider handling the error returned by Scanln.
-
+    fmt.Scanln(&num1) 
     fmt.Print("Enter the 2nd number: ")
-    fmt.Scanln(&num2) // Consider handling the error returned by Scanln.
+    fmt.Scanln(&num2) 
 
     fmt.Print("Choose the Operator which you want (+,-,/,*): ")
     fmt.Scanln(&operations)
